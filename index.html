@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>JavaScript Quiz</title>
+		<link type='text/css' rel='stylesheet' href='scrript.css'/>
+	</head>
+	<body>
+
+				<h1>WELCOME TO QUIZ!!!!</h1>
+				<div class='split left'>
+<div class='content-holder'>
+	<div class="no-of-question">
+		<strong>Enter No Of Questions you want to solve: </strong><input type="text" id="no_of_question">
+	</div>
+    <button onclick='display()' id='start'>Start Quiz</button>
+
+			<div class='content'>
+<h3>Two Numbers Are:-</h3>
+
+    <p id="num1"></p>
+  <p id="num2"></p>
+</div>
+<div class='op-display'>
+  <h4>Select Operatoion which you want to perform :-</h4>
+
+  <button  id='ADD'  value='ADD'>ADD</button>
+  <button id='SUBTRACTION'  value='SUBTRACTION'>SUBTRACTION</button>
+  <button id='DIVISION' value='DIVISION'>DIVISION</button>
+  <button id='MULTIPLICATION' value='MULTIPLCATION'>MULTIPLCATION</button>
+</div>
+    </br></br>
+<div class='op'>
+<strong>Enter Desired Output  </strong><input type="text" id="output">
+  </br></br>
+
+	<button id='next' class='next'>NEXT</button>
+<p id=score></p>
+</div>
+
+
+  </div>
+<div class='end'>
+	<p id='try'></p>
+</div>
+</div>
+</div>
+<div class='split right'>
+	<div class='content-holder1'>
+		<div class="no-of-question1">
+			<strong>Enter No Of Questions you want to solve: </strong><input type="text" id="no_of_question1">
+		</div>
+	    <button onclick='display1()' id='start1'>Start Quiz</button>
+
+	<div class='content1'>
+		<h3>Two Numbers Are:-</h3>
+	    <p id="num3"></p>
+	  <p id="num4"></p>
+	</div>
+	<div class='op-display1'>
+	  <h4>Select Operator which you want to perform :-</h4>
+
+	  <button  id='ADD1'  value='ADD'>ADD</button>
+	  <button id='SUBTRACTION1'  value='SUBTRACTION'>SUBTRACTION</button>
+	  <button id='DIVISION1' value='DIVISION'>DIVISION</button>
+	  <button id='MULTIPLICATION1' value='MULTIPLCATION'>MULTIPLCATION</button>
+</div>
+	    </br></br>
+
+
+<div class='op1'>
+	Enter Desired Output <input type="text" id="output1">
+		</br></br>
+		<button id='next1' class='next1'>NEXT</button>
+		<p id=score1></p>
+		</div>
+
+
+	  </div>
+	<div class='end1'>
+		<p id='try1'></p>
+	</div>
+
+	</div>
+</div>
+   			<br/>
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script type='text/javascript' src='script1.js'></script>
+			      		<script type='text/javascript' src='script.js'></script>
+</body>
+</html>
